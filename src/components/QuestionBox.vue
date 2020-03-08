@@ -12,8 +12,6 @@
           v-for="(answer, index) in answers"
           :key="index"
           :class="{answer}"
-          @mouseover="hover = true"
-          @mouseleave="hover = false"
           @click="checkAnswer(answer)">
           {{ answer }}
         </b-list-group-item>
